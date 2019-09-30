@@ -1,0 +1,276 @@
+/*Typography*/
+
+* { box-sizing: border-box; }
+
+h1,
+h2 {font-family: verdana, helvetica, arial, sans-serif;
+}
+
+p {
+  font-family: georgia, palatino, lucida-bright, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+body {
+  background-size: cover;
+  background-color: #f4f4f4;
+  color: #34495e;
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* WHOLE PAGE */
+
+.content {
+  margin: 3em, auto;
+  width: 100%;
+  padding-top: 5em;
+}
+
+.container {
+  margin: 10 auto;
+  /* width: 80%; */
+}
+
+.container-fluid {
+  width: auto;
+}
+
+.header h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+div a:active {
+  color: red;
+}
+
+div a:visited {
+  color: #d400e2;
+}
+
+.img-responsive {
+  margin: 1em auto;
+  padding-left: 1em;
+}
+
+
+/* NAV BAR */
+
+.navbar {
+  margin: 0 auto;
+  padding: 1em;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  background: black;
+  z-index: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: #D6F5D6;
+  font-size: 2em;
+  padding: 1em .6em;
+}
+
+
+/* CAROUSEL */
+
+.carousel {
+  max-width: auto;
+  max-height: 7%;
+}
+
+.carousel-inner {
+  /* opacity: 0.5; */
+}
+
+
+.carousel-caption {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  color: #099946;
+    /* text-shadow: -.0625em 0 white, 0 .0625em white, .0625em 0 white, 0 .0625em white; */
+    /* text-shadow: 0 0 8px white; */
+  font-size: 3em;
+  margin-bottom: 19rem;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+/* WORKS */
+
+#work {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.work-img {
+  display: block;
+  max-width: 100px;
+  /* position: relative; */
+  /* margin: 10em; */
+}
+
+.info {
+  position: absolute;
+  display: none;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  color: #000000;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5em;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.proj-title { font-weight:100; }
+
+
+/* ABOUT ME */
+
+/* MODAL */
+@media (min-width: 768px) {
+  .modal-button button {
+    /* float: left; */
+  }
+}
+
+#modalembed {
+  height: 600px;
+  width: 100%;
+}
+
+.modal-content {
+  width: 150%;
+}
+
+.image img {
+  width: 80%;
+  height: 100%;
+}
+
+.intro {
+  padding: 0 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.intro p{
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+.skills {
+  font-size: 1.5em;
+  padding: 0 auto;
+}
+
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+  /* color: black; */
+}
+
+#skill-list {
+  margin-left: -1em;
+}
+
+.main-text {
+  padding-top: 5em;
+  margin-bottom: 7.5em;
+  clear: both;
+}
+
+
+
+/* FAQ Page */
+
+.card-header button { font-size: .7em;}
+.card-header { background: #099946; }
+.card-header button { color: #000000; }
+.card-header button:hover { color: #ff0000; }
+.card-body { font-size: 1em; }
+
+#accordion {white-space: normal;}
+
+
+/* CONTACT */
+
+#contact {
+  background-image: url("../img/4.jpg");
+    /* opacity: 0.7; */
+  padding-top: 70px 100px 100px 100px;
+  padding-bottom: 70px 100px 100px 100px;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e7e7e7;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#details {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.contact {
+  padding-bottom: 70px;
+}
+
+i ~ p  {
+  padding: 1em 10em
+}
+
+form {
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
